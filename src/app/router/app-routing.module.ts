@@ -1,9 +1,9 @@
-import { RoomDetailsComponent } from './room-details/room-details.component';
-import { CreateRoomComponent } from './create-room/create-room.component';
+import { RoomDetailsComponent } from '../component/room-details/room-details.component';
+import { CreateRoomComponent } from '../component/create-room/create-room.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { RoomListComponent } from './room-list/room-list.component';
-import { UpdateRoomComponent } from './update-room/update-room.component';
+import { RoomListComponent } from '../component/room-list/room-list.component';
+import { UpdateRoomComponent } from '../component/update-room/update-room.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'rooms', pathMatch: 'full' },

@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { RoomDetailsComponent } from '../room-details/room-details.component';
 import { Observable } from 'rxjs';
-import { Room } from '../room';
-import { RoomService } from '../room.service';
+import { Room } from '../../room';
+import { RoomService } from '../../room.service';
 
 @Component({
   selector: 'app-room-list',
